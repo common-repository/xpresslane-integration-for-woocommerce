@@ -1,0 +1,147 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/*#mwb_xpresslane_top {
+    width: 270px;
+    margin: 10px;
+    background: none!important;
+    color: transparent !important;
+}*/
+/* single product & cart page */
+.mwb_xlane_payment_button {
+    text-align: inherit;
+}
+.mwb_xlane_payment_button.wc-proceed-to-checkout {
+    display: block !important;
+}
+ul.wc_payment_methods li.wc_payment_method.payment_method_xpresslane {
+    display: none !important;
+}
+/* single product &  cart page */
+#mwb_xpresslane_top_new::after{
+    content: unset;
+    display: none;
+}
+/*#mwb_xpresslane_top_mobile{
+    display:none;
+}*/
+/* single product & cart page */
+img.mwb_xpresslane_cart_page_img, img.mwb_xpresslane_prod_page_img {
+    width: 86px !important;
+    display: inline !important;
+    vertical-align: middle !important;
+}
+button#mwb_xpresslane_top_new.white-logo{
+    background-color: #ffffff !important;
+    color: #4f4f4f;
+
+}
+.includes_tax{
+    display: none !important;
+}
+/* mini cart */
+button#mwb_xpresslane_top_new.xlane-mini-cart {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-size: 15.2px;
+}
+.mwb_xlane_payment_button.xlane_minicart_button {
+    padding-top: 0 !important;
+}
+/* cart page */
+.cart_totals button.checkout-button.button,.cart_totals a.checkout-button.button {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align:center !important;
+}
+/* single product */
+form#order.ajax.cart { 
+    padding: 0;
+    border: none !important;
+    margin: 0;
+}
+/* single product */
+.woocommerce div.product form.cart{
+    border-bottom: none !important;
+    padding-bottom: 5px !important;
+}
+/* single product & cart page */
+button#mwb_xpresslane_top_new {
+    font-size: 15.2px;
+    border: none !important;
+    letter-spacing: normal;
+    text-decoration: none;
+    background-color: #4f4f4f !important;
+    color: #ffffff;
+    text-transform: none;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*border: 1px solid transparent;*/
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* loader css  on success on product page */
+.success_msg {position: fixed;z-index: 999;height: 2em;width: 2em;overflow: visible;margin: auto;top: 0;left: 0;bottom: 0;right: 0;}
+/* Secure Image */
+
+.secure_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.success_msg:before {
+   content: '';
+   display: block;
+   position: fixed;
+   top: 0;
+   z-index: -1;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255,255,255,0.8) !important;
+}
+button.mwb_xpresslane_mobile{
+    display: none !important;
+}
+
+button#mwb_xpresslane_top_new.mwb_disabled,
+button#mwb_xpresslane_top_new.mwb_stock_disabled {
+    opacity: .5 !important;
+    cursor: not-allowed;
+    background-color: #777 !important;
+}
+
+@media (max-width: 767px){
+    button#mwb_xpresslane_top_new,
+    button#mwb_xpresslane_top_new.xlane-mini-cart{
+        width: 100% !important;
+    }
+    button.mwb_xpresslane_mobile{
+        display: block !important;
+    }
+    button.mwb_xpresslane_desktop{
+        display: none !important;
+    }
+}
+/*@media (max-width: 767px){
+    #mwb_xpresslane_top_mobile{
+        display: block !important;
+    }
+    #mwb_xpresslane_top_new{
+        display: none;
+    }
+    #mwb_xpresslane_top_mobile::after{
+        content: unset;
+        display: none;
+    }
+}*/

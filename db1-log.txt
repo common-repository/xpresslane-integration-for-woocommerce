@@ -1,0 +1,1 @@
+{"data":"{\"order_id\":2669,\"redirect_url\":\"https:\\\/\\\/altprice.in\\\/checkout-2\\\/order-received\\\/2669\\\/?key=wc_order_DeVAtdgu9E6UG\"}","headers":[],"status":200}

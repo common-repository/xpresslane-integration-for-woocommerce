@@ -1,0 +1,118 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#order_data .order_data_column:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#order_data .order_data_column:first-child h3 {
+    order: 2;
+    margin: 0;
+}
+
+#order_data .order_data_column:first-child .form-field-wide {
+    order: 3;
+}
+
+#order_data .order_data_column:first-child .form-field-wide.wc-order-status {
+    order: 4;
+}
+
+#order_data .order_data_column:first-child .form-field-wide.wc-customer-user {
+    order: 5;
+}
+
+.address.xpresslane-payment-mode {
+    order: 1;
+}
+.mwb_padding_label_left{
+    text-align: left;
+    width: 210px;
+    line-height: 1.3;
+    font-weight: 600;
+    position: relative;
+    color: #23282d;
+    text-shadow: none;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+.mwb-admin-setting-padding-main {
+    display: inline-flex;
+    vertical-align: middle;
+}
+.mwb-admin-setting-padding-main span.woocommerce-help-tip {
+    padding-right: 6px;
+    top: 8px;
+}
+/*span.mwb-admin-setting-padding-main:nth-of-type(5){*/
+/*  clear: both;*/
+/*  display: flex;*/
+/*  flex-flow: row nowrap;*/
+/*  padding-top: 15px;*/
+/*}*/
+/*span.mwb-admin-setting-padding-main:nth-of-type(9) {*/
+/*    display: flex;*/
+/*    padding: 0;*/
+/*    position: relative;*/
+/*    top: -40px;*/
+/*}*/
+/*span.mwb-admin-setting-padding-main:nth-of-type(6),*/
+/*span.mwb-admin-setting-padding-main:nth-of-type(7),*/
+/*span.mwb-admin-setting-padding-main:nth-of-type(8){*/
+/*  position: relative;*/
+/*  top: -56px;*/
+/*  left: 338px;*/
+/*}*/
+
+/*span.mwb-admin-setting-padding-main:nth-of-type(10),*/
+/*span.mwb-admin-setting-padding-main:nth-of-type(11),*/
+/*span.mwb-admin-setting-padding-main:nth-of-type(12) {*/
+/*    position: relative;*/
+/*    top: -96px;*/
+/*    left: 338px;*/
+/*}*/
+span.mwb-admin-setting-padding-main.Single.Product {
+    clear: left;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+span.mwb-admin-setting-padding-main {
+    display: inline-flex;
+    clear: right;
+    width: 36%;
+    margin-bottom: 16px;
+}
+
+span.mwb-admin-setting-padding-main.Cart.Page {
+    clear: both;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+/* hide expresslane option in payment setting of woocommerce */
+table.wc_gateways tr[data-gateway_id="xpresslane"] {
+    display: none !important;
+}
+
+/* css for order item meta data on order dashboard page */
+
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr th, 
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td {
+    width: auto;
+    padding: 15px 0 !important;
+    vertical-align: middle;
+}
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr td p{
+    padding-left:2em !important;
+}
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr th{
+    width: 60% !important;
+}
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr:last-child th, 
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta tr:last-child td {
+    border-top: 1px solid #eee !important;
+    border-bottom:1px solid #eee !important;
+}
